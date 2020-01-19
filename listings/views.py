@@ -1,3 +1,13 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def indexPage(request):
+    return render(request, 'listings/listings.html')
+
+
+def listingPage(request):
+    return render(request, 'listings/listing.html')
+
+
+def searchPage(request):
+    return render(request, 'listings/search.html')
