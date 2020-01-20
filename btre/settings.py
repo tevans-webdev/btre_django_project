@@ -143,7 +143,6 @@ MESSAGE_TAGS = {
 }
 
 # Email config
-
 # gmail config
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_PORT = 587
