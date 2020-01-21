@@ -149,3 +149,8 @@ MESSAGE_TAGS = {
 # EMAIL_HOST_USER = 'youremail@mail.com'
 # EMAIL_HOST_PASSWORD = 'yourpassword'
 # EMAIL_USE_TLS = True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
